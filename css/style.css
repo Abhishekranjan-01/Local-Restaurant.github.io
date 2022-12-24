@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Dela+Gothic+One&family=Montserrat:wght@400;500;600;700;800;900&family=Red+Rose:wght@300;400;500;600&display=swap');
+
+body{
+
+/* font-family: 'Arimo', sans-serif; */
+font-family: 'Dela Gothic One', cursive;
+/* font-family: 'Montserrat', sans-serif; */
+font-family: 'Red Rose', cursive;
+
+
+background-image: linear-gradient(15deg, rgba(22,43,51,0.6614845767408526) 100%, rgba(0,0,0,0.74831931063441) 100%),url("../assets/pexels-maxyne-barcel-10402282\ 1.png"); 
+/* width: 80%; */
+/* height: 100%; */
+/* max-width:none; */
+
+
+}
+nav{
+    color: #f1c40f;
+}   
+li{
+    display: inline;
+}
+
+li.option{
+    margin-left: 5%;
+
+}
+li.option a.option-list:link{
+    color: #f1c40f;
+}
+li.option a.option-list:visited{
+    color: #f1c40f;
+}
+li.option a.option-list:hover{
+    border-bottom:2px solid #f1c40f;
+}
+li.option a.option-list:active{
+    color: #eb2f06;
+}
+li.order a:link{
+    color: white;
+}
+li.order a:visited{
+    color: white;
+}
+li.order a:hover{
+    color: white;
+    border-bottom:2px solid #f1c40f;
+}
+
+
+li a{
+    text-decoration: none;
+}
+li.our-menu{
+    margin-left: 20%;
+}
+li.order{
+    border: 1px solid #eb2f06;
+    font-size: 25px;
+    margin-left: 15%;
+    color: white;
+    padding: 5px 2%;
+    background-color: #eb2f06;
+    margin-top: 0%;
+}
+li.order a{
+    color: white;
+}
+
+main{
+    
+    color: #f1c40f;
+    font-size: 300%;
+}
+h1.heading-2,h1.heading-3{
+    margin-top: -2.5%;
+}
+h2.menu{
+    /* display: flex; */
+    border: 1px solid #eb2f06 ;
+    background-color: #eb2f06;
+    padding: 5px 2%;
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    
+}
+h2{
+    color: white;
+}
+h2 a.read-menu:link{
+    text-decoration: none;
+    color: white;
+}
+h2 a.read-menu:visited{
+    color: white;
+}
+h2 a.read-menu:hover{
+    border-bottom: 2px solid #f1c40f
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img.scrool{
+    align-self: flex-end;
+    margin-top: -4%;
+}
+h1{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
