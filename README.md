@@ -1,2 +1,1 @@
-# Local-Restaurant.github.io
-Css-project-2
+Used Html and css, any suggestions are welcomed , although it can't be customised for moblile screens for now.
